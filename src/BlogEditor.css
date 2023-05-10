@@ -1,0 +1,12 @@
+.editorPane{
+    display:flex;
+}
+.toolbar{
+    display:flex;
+    flex-direction: column;
+}
+.previewPane{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
