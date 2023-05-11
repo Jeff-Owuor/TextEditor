@@ -13,3 +13,12 @@
   background-color:#f6f6f6;
   height:100vh;
 }
+.themeContainer{
+  display:flex;
+  padding:13px 5px 13px 24px;
+}
+
+.header{
+  margin-left:5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
