@@ -9,7 +9,10 @@ function App() {
   };
   return (
     <div className={`App ${darkMode ? 'dark' : 'light'}`}>
-        <button onClick={handleToggleMode}><i className="fas fa-adjust fa-2x modeButton"></i></button>
+        <div className="themeContainer">
+            <i className="fas fa-adjust fa-3x modeButton" onClick={handleToggleMode}></i>
+            <h1 className="header">{`${darkMode ? 'Dark' : 'Light'}`}</h1>
+         </div>
          <BlogEditor/>
     </div>
   );
