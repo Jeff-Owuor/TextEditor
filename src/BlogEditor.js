@@ -53,7 +53,7 @@ function BlogEditor() {
     setPreview('');
     
     const alertContainer = document.getElementById('alert-container');
-    
+
     const alert = document.createElement('div');
     alert.classList.add('alert', `alert-success`);
     alert.setAttribute('role', 'alert');
