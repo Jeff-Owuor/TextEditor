@@ -115,10 +115,10 @@ function BlogEditor() {
         <h3 className='text-center mt-3 mb-3 headerThree'>Drafts:</h3> 
       <div className="drafts-pane row">
           {drafts.map((draft, index) => (
-            <div class="card col-md-3" style={{width: "18rem",marginRight:"8px"}} key={index}>
-            <div class="card-body">
-                <h5 class="card-title">Blog- {index}</h5>
-                <p class="card-text"onClick={() => setMarkdown(draft)}>{draft}</p>
+            <div claesName="card col-md-3" style={{width: "18rem",marginRight:"8px"}} key={index}>
+            <div className="card-body">
+                <h5 className="card-title">Blog- {index}</h5>
+                <p className="card-text"onClick={() => setMarkdown(draft)}>{draft}</p>
             </div>
         </div>
         
