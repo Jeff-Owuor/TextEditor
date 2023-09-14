@@ -108,8 +108,8 @@ function BlogEditor() {
         <div className="toolbar col-md-3">
           <label htmlFor="image-upload"><i className="fas fa-image btn mb-1"></i></label>
           <input id="image-upload" type="file" accept="image/*" onChange={handleImageUpload}  className="mb-2 btn"/>
-          <button onClick={handleSaveDraft} className="btn btn-dark mb-2 btn-lg">Save as Draft</button>
-          <button onClick={handlePublish}  className="btn btn-dark mb-2 btn-lg">Publish</button>
+          <button onClick={handleSaveDraft} className="btn btn-dark mb-2 btn-lg save" id="Save">Save as Draft</button>
+          <button onClick={handlePublish}  className="btn btn-dark mb-2 btn-lg publish" id="publish">Publish</button>
         </div>
       </div>
         <h3 className='text-center mt-3 mb-3 headerThree'>Drafts:</h3> 
