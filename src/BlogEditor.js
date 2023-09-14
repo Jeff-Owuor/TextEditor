@@ -112,6 +112,11 @@ function BlogEditor() {
           <button onClick={handlePublish}  className="btn btn-dark mb-2 btn-lg publish" id="publish">Publish</button>
         </div>
       </div>
+
+      {/* measurement id = G-5LFM1VLCDX
+           Stream id = 6103421398
+      */}
+
         <h3 className='text-center mt-3 mb-3 headerThree'>Drafts:</h3> 
       <div className="drafts-pane row">
           {drafts.map((draft, index) => (
